@@ -1,0 +1,59 @@
+body{
+    background-color: darkred;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 0 20px 0 20px;
+    border-radius: 50px;
+    background-image: url(bacground.jpg);
+    background-blend-mode: soft-light; 
+   
+}
+  .container{
+      background-color:orange; 
+      margin: 10px 100px 0 100px;
+      padding: 40px 0 20px 0 ;
+      border-radius: 30px;
+  } 
+
+nav ul{
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    
+}
+nav li{
+    margin: 0px 35px 0px 70px;
+    padding-bottom: 40px;
+    text-align: center;
+    display: inline;
+
+}
+li a{
+    color:black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover{
+    color:white;
+}
+h1{
+    text-align: center;
+    color: yellow;
+    font-style: italic;
+    font: large;
+    font-size: xx-large;
+   }
+.ytgd{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: 40px;
+    font: outline;
+    color: yellow;
+}
+form{
+    color: yellow;
+}
+.form1{
+    box-align:center;
+    display: inline;
+}
