@@ -1,24 +1,31 @@
 body{
-    background-color: darkred;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0 20px 0 20px;
-    border-radius: 50px;
-    background-image: url(bacground.jpg);
-    background-blend-mode: soft-light; 
-   
+    font-family: Arial;
+    padding: 20px;
+    background:darkcyan;
+}
+*{
+  text-decoration: none;
+}
+.header {
+    padding: 1px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+    
+
 }
   .container{
-      background-color:orange; 
-      margin: 10px 100px 0 100px;
-      padding: 40px 0 20px 0 ;
-      border-radius: 30px;
-  } 
-
+      background-color: white;
+      border-radius: 20px;
+      padding: 15px 0 5px 0;
+      margin-bottom: -15px;
+  }     
+ 
 nav ul{
     margin: 10px;
     padding: 5px;
     list-style: none;
-    
+    background-color: #dddddd;
 }
 nav li{
     margin: 0px 35px 0px 70px;
@@ -27,14 +34,17 @@ nav li{
     display: inline;
 
 }
-li a{
-    color:black;
+li a {
+    color: black;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 17px;
 }
 nav a:hover{
     color:white;
+    color: violet;
+    background-color: white;
+    padding: 5px 5px 5px 5px;
 }
 h1{
     text-align: center;
@@ -42,13 +52,6 @@ h1{
     font-style: italic;
     font: large;
     font-size: xx-large;
-   }
-.ytgd{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    font-weight: 40px;
-    font: outline;
-    color: yellow;
 }
 form{
     color: yellow;
@@ -57,3 +60,66 @@ form{
     box-align:center;
     display: inline;
 }
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    padding-left: 20px;
+  }
+  
+  /* Fake image */
+  .yusufimg {
+    background-color:none;
+    width: 30%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+     background-color: white;
+     padding: 20px;
+     margin-top: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background:#000000;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  div .card .yusufimg a{
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  div .card .yusufimg a:hover{
+    color: black;
+    background-color: white;
+  }
+    
