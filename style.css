@@ -5,14 +5,28 @@ body{
 }
 *{
   text-decoration: none;
+
 }
 .header {
     padding: 1px;
     font-size: 40px;
     text-align: center;
     background: white;
-    
-
+    border-radius: 40px;
+    background-color: darkgrey;
+}
+.header a{
+  font-size: 100px;
+  text-align: center;
+  background: white;
+  background-color: darkgrey;
+  font-family: cursive;
+}
+.header a:hover{
+  background: white;
+  border-radius: 40px;
+  background-color: black;
+  font-style: oblique;
 }
   .container{
       background-color: white;
@@ -55,12 +69,18 @@ h1{
 }
 form{
     color: yellow;
+    align-content: center;
+    display: inline-block;
+    width: 50px;
+    align: center;
 }
-.form1{
+div .form1 form{
     box-align:center;
     display: inline;
+    align-content: center;
+    display: inline-block;
 }
-
+*/
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
@@ -79,7 +99,7 @@ form{
   /* Fake image */
   .yusufimg {
     background-color:none;
-    width: 30%;
+    width: 20%;
     padding: 20px;
   }
   
@@ -122,4 +142,16 @@ form{
     color: black;
     background-color: white;
   }
-    
+  div .feedback{
+    align-content: center;
+    font-family: cursive;
+    font-size: 5rem;
+    background-color: white ;
+  }
+
+  }
+  div button{
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+  }
